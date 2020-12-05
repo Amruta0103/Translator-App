@@ -2,13 +2,18 @@
 
 
 .body{
-  background-image: url("images/bgimage.svg");
   text-align:center;
   color:black;
   margin:10px;
   font-style: oblique;
   font-family: 'Zilla Slab', serif;
   font-size: medium;
+  display: block;
+  margin:auto;
+}
+.bgimg{
+  background-image: url("https://i.pinimg.com/originals/c2/6e/62/c26e62c9e3c45ed28f17907c75d00274.jpg");
+  align-self: auto;
 }
 
 .section{
@@ -22,10 +27,7 @@
 }
 
 .head{
-  background-color: rgb(79, 235, 113);
-  color: black;
-  border-radius: 0.5rem;
-  border: 1px solid black;
+  color: white;
   margin:auto;
   display:block;
   max-width: 900px;
@@ -46,7 +48,7 @@
 button{
   text-align:center;
   align-self: center;
-  background-color: rgb(79, 235, 113);
+  background-color: white;
   color: black;
   font-display: bold;
   display:block;
@@ -70,10 +72,7 @@ button{
 }
 
 .foot{
-  background-color: rgb(79, 235, 113);
-  color: black;
-  border-radius:0.5rem;
-  border: 1px solid black;
+  color: white;
   max-width:900px;
   display:block;
   margin:auto;
